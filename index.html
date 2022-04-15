@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2157336164.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+        
+        nav {
+            display: inline-flexbox;
+        }
+        
+        .navbar {
+            width: 100%;
+            display: inline-flexbox;
+            position: absolute;
+            height: 100px;
+        }
+        
+        .navbar nav ul li {
+            display: inline-block;
+            text-transform: capitalize;
+            font-size: 20px;
+            letter-spacing: 1px;
+            padding: 45px;
+            margin: 0px;
+            position: relative;
+        }
+        
+        .left {
+            float: right;
+        }
+        
+        .left ul li {
+            padding: 30px;
+        }
+
+        .left ul li a{
+            text-decoration: none;
+            color: rgb(42, 179, 248);
+            font-family: 'Raleway', sans-serif;
+            font-weight: bold;
+        }
+
+        .left ul li a:hover{
+            background-color: rgb(120, 174, 38);
+            text-decoration: underline;
+            color: aliceblue;
+            border-radius: 5px;
+            padding: 8px 16px;
+        }
+
+        .navbar img {
+            padding: 20px;
+            width: 150px;
+            height: 70px;
+            margin: 0px 0px 0px 0px;
+            position: absolute;
+        }
+        
+        hr {
+            background-color: orangered;
+            width: 100%;
+            height: 7px;
+            margin-top: 100px;
+            display: inline-block;
+        }
+        .section1{
+            
+            float: left;
+            width: 20%;
+            border-right: 1px solid rgb(235, 229, 229);
+        }
+        .section1 ul li{
+            list-style: none;
+            line-height: 25px;
+            margin-top: 25px;
+        }
+        .section1 ul li a{
+            text-decoration: none;
+            color: #2867B2;
+            font-size: 25px;
+        }
+        .section1 ul li a:hover{
+            text-decoration: underline;
+        }
+        .section1 ul li a:active{
+            color: #e52d27;
+        }
+        .section2{
+            display: inline-block;
+            width: 76%;
+            font-size: 22px;
+            line-height: 40px;
+            height: 600px;
+        }
+        .section2 h1{
+            color: rgb(8, 144, 212);
+            border-bottom: 1px solid rgb(235, 229, 229);
+            padding: 50px;
+            font-weight: lighter;
+        }
+        .section2 .section2-content{
+            margin-top: 30px;
+            margin-left: 40px;
+        }
+        footer {
+            height: 180px;
+            background-color: black;
+            color: aliceblue;
+            width: 100%;
+            bottom: 0;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .column1{
+           float: left;
+            width: 28%;
+            margin-left: 50px;
+        }
+        .column1 span{
+            margin-top: 15px;
+        }
+        .Community,.Contact,.Follow {
+            border-width: 0.15rem;
+            display: flex;
+            border-style: solid;
+            border-image: linear-gradient(to right, #3ec1d5 20%, #555 0%) 0% 0% 100% 0%;
+        }
+        .column1 a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        .column1 a:hover{
+            text-decoration: underline;
+        }
+        .column2{
+           display: inline-block;
+            width: 28%;
+        }
+        .column2 span{
+            margin-top: 15px;
+        }
+        .column3{
+            float: right;
+            width: 28%;
+            margin-right: 50px;
+        }
+        .column3 span{
+            margin-top: 15px;
+        }
+        .column3 a{
+            text-decoration: none;
+        }
+        .AGPL{
+            margin-top: 35px;
+            background-color: rgb(57, 55, 55);
+            height: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <nav>
+            <img src="logo.jpg" alt="logo">
+            <div class="left">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div>
+
+        <hr>
+    </div>
+
+    
+        <div class="section1">
+            <ul>
+                <li><a href="#" class="active">Aim</a></li>
+                <li><a href="#" class="active">Recap</a></li>
+                <li><a href="#">Pretest</a></li>
+                <li><a href="#">Divide and Conquer</a></li>
+                <li><a href="#">Strassen's Matrix Multiplication</a></li>
+                <li><a href="#">Analysis</a></li>
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Posttest</a></li>
+                <li><a href="#">Further Readings</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+        
+        <div class="section2">
+            <h1 align="center">Strassen's Matrix Multiplication</h1>
+            <div class="section2-content">
+            <h2><u>Estimated Time</u></h2>
+            <p>1 hour</p>
+            <br>
+            <h2><u> Objectives of the Experiment</u></h2>
+            In this experiment, you will be able to do the following:<br>
+                <ul>
+                    <li>Understanding & learning the concept & algorithm of Strassen's Matrix Multiplication.</li>
+                    <li>Learn how Strassen's Matrix Multiplication technique is better than the other matrix multiplication technique.</li>
+                    <li>How we can reduce the time complexity by using Strassen's Matrix Multiplication.</li>
+                    <li>Addition & Subtraction operations take less time than Multiplication while computing.</li>
+                    <li>Problem solving & Implementation of Strassen's Matrix Multiplication algorithm.</li>
+                </ul>
+            </div>
+        </div>
+    
+    <footer>
+        <div class="container">
+            <div class="row align-items-start">
+              <div class="column1">
+                <span class="Community">Community Links</span>
+                <br/>
+                <a href="https://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a><br>
+                <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a><br>
+    
+                <a href="https://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a><br>
+              </div>
+              <div class="column2">
+                <span class="Contact">Contact Us</span>
+                <br/>
+                <span> Phone: General Information: 011-26582050 </span>
+                <span> Email: support@vlabs.ac.in </span>
+              </div>
+              <div class="column3">
+                <span class="Follow">Follow Us</span>
+                <br/>
+                
+              <a class="twitter" style="padding: 15px;"  href="https://twitter.com">
+                <i class="fa fa-twitter" style="background: #55acee; color: white;border-radius: 50%;padding: 13px;"></i>
+              </a>
+              <a class="facebook" style="padding: 15px;" href="https://www.facebook.com">
+                <i class="fa fa-facebook" style="background: #3b5998;color: white;border-radius: 50%;padding: 16px;"></i>
+              </a>
+              <a class="youtube" style="padding: 15px;" href="https://www.youtube.com">
+                <i class="fa fa-youtube" style="background: #e52d27;color: white;border-radius: 50%;padding: 13px;"></i>
+              </a>
+              <a class="linkedin" style=" padding: 15px;" href="https://in.linkedin.com/in">
+                <i class="fa fa-linkedin" style="background: #2867B2 ; color: white; border-radius: 50%;padding:13px"></i>
+              </a>
+                
+              </div>
+            </div>
+            <div class="AGPL">
+                <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+                &nbsp;&amp;&nbsp;
+                <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+              </div>
+      </footer>
+</body>
+</html>
